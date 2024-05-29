@@ -32,6 +32,8 @@
 	<string>We need access to your microphone for screen recording with audio.</string>
 	<key>NSCameraUsageDescription</key>
 	<string>We need access to your camera for screen recording.</string>
+	<key>NSScreenCapturePermission</key>
+	<string>We need access to your screen for recording.</string>
 
 </dict>
 </plist>

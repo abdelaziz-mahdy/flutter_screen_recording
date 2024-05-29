@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_screen_recording/flutter_screen_recording.dart';
 import 'package:quiver/async.dart';
@@ -35,7 +37,9 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    requestPermissions();
+    if (!Platform.isMacOS) {
+      requestPermissions();
+    }
     startTimer();
   }
 
