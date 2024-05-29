@@ -1,22 +1,29 @@
 PODS:
+  - flutter_screen_recording (0.0.1):
+    - FlutterMacOS
   - FlutterMacOS (1.0.0)
-  - shared_preferences_macos (0.0.1):
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
     - FlutterMacOS
 
 DEPENDENCIES:
+  - flutter_screen_recording (from `Flutter/ephemeral/.symlinks/plugins/flutter_screen_recording/macos`)
   - FlutterMacOS (from `Flutter/ephemeral`)
-  - shared_preferences_macos (from `Flutter/ephemeral/.symlinks/plugins/shared_preferences_macos/macos`)
+  - shared_preferences_foundation (from `Flutter/ephemeral/.symlinks/plugins/shared_preferences_foundation/darwin`)
 
 EXTERNAL SOURCES:
+  flutter_screen_recording:
+    :path: Flutter/ephemeral/.symlinks/plugins/flutter_screen_recording/macos
   FlutterMacOS:
     :path: Flutter/ephemeral
-  shared_preferences_macos:
-    :path: Flutter/ephemeral/.symlinks/plugins/shared_preferences_macos/macos
+  shared_preferences_foundation:
+    :path: Flutter/ephemeral/.symlinks/plugins/shared_preferences_foundation/darwin
 
 SPEC CHECKSUMS:
+  flutter_screen_recording: 63176b9fd8a35f816e53c4deeb22dc7c184283bb
   FlutterMacOS: 8f6f14fa908a6fb3fba0cd85dbd81ec4b251fb24
-  shared_preferences_macos: a64dc611287ed6cbe28fd1297898db1336975727
+  shared_preferences_foundation: fcdcbc04712aee1108ac7fda236f363274528f78
 
-PODFILE CHECKSUM: 236401fc2c932af29a9fcf0e97baeeb2d750d367
+PODFILE CHECKSUM: c2e95c8c0fe03c5c57e438583cae4cc732296009
 
 COCOAPODS: 1.15.2
